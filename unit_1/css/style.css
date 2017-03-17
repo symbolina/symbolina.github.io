@@ -10,4 +10,8 @@ h1, p {
 	background-color: purple;
 	font-variant: small-caps;
 	font-family: book antiqua;
+tab {
+	margin-left:5.5em;
+}
+
 }
