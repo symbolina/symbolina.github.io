@@ -2,10 +2,12 @@ body {
 	background-color: pink;
 	margin-right: 100px;
 	margin-left: 100px;
+	font-weight: bold;
+	
 
-}
-
-h1 {
+h1, p {
 	color: yellow;
 	background-color: purple;
+	font-variant: small-caps;
+	font-family: book antiqua;
 }
