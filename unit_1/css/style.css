@@ -64,20 +64,3 @@ h2 {
 	font-size: 25px;
 }
 
-#wrap {
-	width: 485px;
-}
-
-.left {
-	width:240px;
-	background-image: "images/food.jpg"
-	height: 123px;
-	float: left;
-}
-
-.right {
-	width:240px;
-	background-image: "images/culture.jpg"
-	height: 123px;
-	float: right;
-}
