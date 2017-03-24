@@ -1,12 +1,83 @@
 body {
-	background-color: pink;
-	margin-right: 100px;
-	margin-left: 100px;
-	font-weight: bold;
+	margin:0;
+	padding:0;
+	background-size: 1280px 900px;
+}
 	
+#nav {
+	background-color: #d6d6c2;
+	position: fixed;
+	width:100%;
+	top:20px;
+}
 
-h1, p {
-	color: green;
-	background-color: white;
-	font-variant: small-caps;
+#nav-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	position:relative;	
+}
+
+#nav ul {
+	background-color: #d6d6c2;
+	height:20px;
+	width:100%;
+	list-style: none;
+	text-align: center;
+}
+
+#nav ul li{
+	padding-right: 42px;
+	padding-left: 42px;
+	background-repeat:no-repeat;
+	display:inline-block;
+}
+
+li+li { 
+	border-left: 1px solid #334d00; 
+	border-color: #446600;
+}
+
+#nav ul li a {
+	text-decoration:none;
+	color:#446600;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	display:inline;
+}
+
+h1 {
+	position: absolute;
+	left: 570px;
+	top: 350px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2 {
+	position: absolute;
+	left: 470px;
+	top: 450px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 25px;
+}
+
+#wrap {
+	width: 485px;
+}
+
+.left {
+	width:240px;
+	background-image: "images/food.jpg"
+	height: 123px;
+	float: left;
+}
+
+.right {
+	width:240px;
+	background-image: "images/culture.jpg"
+	height: 123px;
+	float: right;
 }
