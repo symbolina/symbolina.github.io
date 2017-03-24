@@ -3,12 +3,19 @@ body {
 	padding:0;
 	background-size: 1280px 900px;
 }
-	
+
+#logo {
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 220px;
+}	
+
 #nav {
 	background-color: #d6d6c2;
 	position: fixed;
 	width:100%;
-	top:20px;
+	top:0px;
 }
 
 #nav-wrapper {
@@ -46,21 +53,10 @@ li+li {
 	display:inline;
 }
 
-h1 {
-	position: absolute;
-	left: 570px;
-	top: 350px;
-	color: #ffffff;
-	text-align: center;
-	font-size: 60px;
+#otli{
+	color: #DAEAB9;
 }
 
-h2 {
-	position: absolute;
-	left: 470px;
-	top: 450px;
-	color: #ffffff;
-	text-align: center;
-	font-size: 25px;
+.culture {
+	background-color: #ffffff"
 }
-
