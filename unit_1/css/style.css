@@ -76,14 +76,16 @@ li+li {
     display: inline-block;
     text-align: center;
     width: 80px;
-    margin-left: 0em;
-    margin-right: 0em;
+    margin: 0 auto 0 auto;
+    padding-right: 42px;
+	padding-left: 42px;
 }
 
-#group image{
+#group img ul li {
 	width: 100px;
 	width: 100px;
 }
+
 .language{
 	background-color: #ffffff;
 	color:#1a1a00;
